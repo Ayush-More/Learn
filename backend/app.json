@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Hello",
+    "slug": "Hello",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "Hello",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c6e1057-7bd5-4401-bacd-6e170e994927"
+      }
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPath": true
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
