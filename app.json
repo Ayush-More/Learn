@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "learn",
-    "slug": "chinamy",
+    "slug": "learn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,11 +25,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "0121fad5-4909-48e9-b835-5a89589803e6"
-      }
     }
   }
 }
